@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+
+
+  <h1>Welcome to our website!</h1>
+  <p>Click the button below to subscribe to our newsletter:</p>
+  <button id="popup-btn" class="popup-btn">Subscribe</button>
+<!-- The pop-up modal -->
+<div id="popup-modal">
+  <div class="popup-content">
+    <span id="close-btn" class="close-btn">&times;</span>
+    <h2>Subscribe to our newsletter</h2>
+    <form id="email-form">
+      <div class="form-group">
+        <label for="email-input" class="e-add">Email address</label>
+        <input type="email" id="email-input" name="email" required>
+        <div id="email-validation" class="validation-message">
+          Please enter a valid email address.
+        </div>
+      </div>
+      <div class="form-group">
+        <button id="submit-btn" type="submit">Submit</button>
+        
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- <script src="./script.js"></script> -->
+</body>
+</html>
